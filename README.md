@@ -1,6 +1,6 @@
 # Background
 
-This is a maven project to demnonstrate the maven resolver slowness when comes to resove duplicate dependencies (same GAV) with different exclusions or version conflict dependencies. 
+This is a maven project to demonstrate the maven resolver slowness when comes to resolve duplicate dependencies (same GAV) with different exclusions or version conflict dependencies. 
 
 Dependencies are messy in this project, it is not the real code, however the cases being demoed here are real:
 
