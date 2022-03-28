@@ -4,15 +4,14 @@ This is a maven project to demonstrate the maven resolver slowness when comes to
 
 Dependencies are messy in this project, it is not the real code, however the cases being demoed here are real:
 
-* Dependencies may get more and more complex with large number of transitive dependencies
-* Version conflcits could be common
+* Dependencies may get more and more complex along with the time. Dependencies are heavy when there are large number of transitive dependencies.
+* Version conflcits could be common.
 * Exclusions are scattered everywhere to solve conflicts.
 
-I have to admit there is no such issue among opensource projects, however it should be common in a company where 
+I have to admit there is no such issue among well-designed opensource projects, however it should be common case in a company where 
 
-* Many developers are not Maven experts
-* Tech stack evolves however many legacy libraries still base on old stack
-* Home made tech stack
+* Many developers are not Maven experts.
+* Home made framework. Tech stack evolves however many legacy libraries still base on old stack.
 * Micro service tech not employed, teams are using maven dependencies to use APIs/Features provided by other teams. 
 
 
